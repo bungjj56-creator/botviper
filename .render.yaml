@@ -1,8 +1,0 @@
-services:
-  - type: web
-    name: discord-translate-bot
-    env: python
-    buildCommand: "pip install -r requirements.txt"
-    startCommand: "python3 bot.py"
-    plan: free
-    autoDeploy: true
